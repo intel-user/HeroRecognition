@@ -1,0 +1,8 @@
+BOUNDING_BOX = "bounding_box"
+CATEGORY = "category"
+CONFIDENCE = "confidence"
+CLASS_NAME = "champions"
+IMAGE = "IMAGE"
+PRED = "PRED"
+FEATURE = "FEATURE"
+NAME = "NAME"

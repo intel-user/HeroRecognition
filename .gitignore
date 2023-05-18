@@ -1,0 +1,12 @@
+test
+logs
+result
+.idea
+*/.idea
+__pycache__
+*/__pycache__
+*/*/__pycache__
+*.mp4
+test.py
+Assignment
+model/*.pt

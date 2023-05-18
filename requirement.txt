@@ -1,0 +1,6 @@
+Pillow
+opencv-python
+onnxruntime
+ultralytics==8.0.20
+transformers~=4.21
+faiss-cpu
