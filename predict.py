@@ -53,6 +53,8 @@ class Inference:
             files = [self.args.source]
         elif os.path.isdir(self.args.source):
             files = glob.glob(f"{self.args.source}/*")
+        if not os.path.exists(self.config.output_img):
+            os.mkdir(self.config.output_img)
         with open(f"{self.config.output_img}/result.txt", "w") as f:
             for idx, file in enumerate(files):
                 f.write(f"{file}\t{result[idx]}\n")
