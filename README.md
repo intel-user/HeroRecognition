@@ -9,9 +9,10 @@ Save model in folder `/model`
 ### 1.2 Run with script
 Install environment
 `sh scripts/prepare_env.sh`  
+or run `python -m pip install -r requirement.txt`
 
 Run predict
 `sh scripts/run.sh`
-
+or run `python predict.py --source "source file"`
 ## 2. Result
 The result is saved at folder _result_. It is a txt file following format: "image file path"    "hero name"
